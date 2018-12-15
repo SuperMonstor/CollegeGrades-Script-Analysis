@@ -1,0 +1,139 @@
+.BMS{
+  float:  left;
+  margin-left: 10px;
+  align: center;
+}
+
+.BMS span{
+  color: black;
+  text-transform: uppercase;
+  display: block;
+}
+.text1{
+  font-size: 60px;
+  font-weight: 100;
+	margin-top: 10px;
+}
+.text2{
+  font-size:10px;
+  margin-top: -0.75em;
+  letter-spacing: 2px;
+  padding: 2px;
+}
+
+
+.line{
+  font-size: 4.5em;
+  float: left;
+  font-weight: 10;
+}
+.estd{
+float: left;
+}
+.new{
+  padding: 10px;
+  color: #707070;
+}
+.header {
+	align: center;
+}
+#college, #subc {
+	float: left;
+}
+
+#college {
+	font-family: Times New Roman;
+	font-size: 34px;
+	font-weight: bold;
+}
+
+span {
+	font-size: 15px;
+	font-weight: bold;
+}
+
+#subc {
+	font-family: Arial;
+	font-size: 22px;
+	font-weight: bold;
+	font-color: black;
+	text-align: left;
+}
+body{
+  margin: 0;
+	padding: 0;
+	background-color: #fcfcfc;
+	font-family: Tahoma;
+}
+
+ #Registration{
+  width: auto;
+	height: auto;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 60px 30px;
+	border-radius: 5px;
+	//border: 2px solid;
+	color: black;
+	background-color: white;
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1.5px 5px 0 rgba(0, 0, 0, 0.19);
+}
+#dob
+{
+  border: none;
+  border-bottom: 1px solid grey;
+  background: transparent;
+  width:263px;
+  outline: none;
+  height: 35px;
+  font-size: 16px;
+}
+#button{
+  border: none;
+  border-bottom: 1px solid grey;
+  background: transparent;
+  width:300px;
+  outline: none;
+  height: 35px;
+  font-size: 16px;
+}
+#ph
+{
+  border: none;
+  border-bottom: 1px solid grey;
+  background: transparent;
+  width:50px;
+  outline: none;
+  height: 35px;
+  font-size: 16px;
+}
+#phone
+{
+  border: none;
+  border-bottom: 1px solid grey;
+  background: transparent;
+  width:245px;
+  outline: none;
+  height: 35px;
+  font-size: 16px;
+}
+#butt{
+  text-align: center;
+  border: none;
+  outline: none;
+  width: 308px;
+  height: 40px;
+  background-color: #dbdbdb;
+  font-size : 16;
+}
+h1 {
+	margin: 0;
+	padding: 0 0 20px;
+	text-align:left;
+	font-size: 20px;
+	font-family: Trebuchet MS;
+	font-weight: normal;
+}

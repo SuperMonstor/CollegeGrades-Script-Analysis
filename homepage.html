@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="css/homepageS.css">
+</head>
+<body>
+
+<div class="topnav" id="myTopnav">
+  <img src="images/logo.png" height="50px" width="300px" class="logo">
+  <a href="#"><i class="fas fa-user-circle"></i>   My account  |</a>
+  <a href="#"><i class="fas fa-phone"></i>   Contact us  |</a>
+  <a href="#"><i class="fas fa-info"></i>   About  |</a>
+  <a href="#"><i class="fas fa-question-circle"></i>  How does it work?  |</a>
+  <a href="homepage.html"><i class="fas fa-home"></i>  Home  </a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<div class="split left">
+  <div class="centered">
+  <img src="images/hpinstruct.png" id="upload">
+</div>
+
+</div>
+
+<div class="split right">
+<div class="centered">
+
+<div class="upload">
+
+  <a href="#"><i class="fas fa-file-upload"></i>UPLOAD</a>
+</div>
+
+
+  </div>
+</div>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+
+</body>
+</html>
